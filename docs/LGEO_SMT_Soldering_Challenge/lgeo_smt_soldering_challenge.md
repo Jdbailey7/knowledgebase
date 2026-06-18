@@ -17,14 +17,14 @@
 ### Kit Components
 <ol>
   <li>x1 - Challenge Printed Circuit Board (PCB)</li>
-  <li>x1 - 1206 150ohm Resistor</li>
-  <li>x1 - 0805 150ohm Resistor</li>
-  <li>x1 - 0603 150ohm Resistor</li>
-  <li>x1 - 0402 150ohm Resistor</li>
-  <li>x1 - 1206 Green LED</li>
-  <li>x1 - 0805 Green LED</li>
-  <li>x1 - 0603 Green LED</li>
-  <li>x1 - 0402 Green LED</li>
+  <li>x1 - (R1) 1206 150ohm Resistor</li>
+  <li>x1 - (R2) 0805 150ohm Resistor</li>
+  <li>x1 - (R3) 0603 150ohm Resistor</li>
+  <li>x1 - (R4) 0402 150ohm Resistor</li>
+  <li>x1 - (D1) 1206 Green LED</li>
+  <li>x1 - (D2) 0805 Green LED</li>
+  <li>x1 - (D3) 0603 Green LED</li>
+  <li>x1 - (D4) 0402 Green LED</li>
 </ol>
 
 <div>
