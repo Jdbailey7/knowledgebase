@@ -15,16 +15,17 @@
 </ul>
 
 ### Kit Components
+Note: Only one of each electrical component is required for the PCB build, but a spare for each is included. These parts are small and easy to lose!
 <ol>
   <li>x1 - Challenge Printed Circuit Board (PCB)</li>
-  <li>x1 - (R1) 1206 150ohm Resistor</li>
-  <li>x1 - (R2) 0805 150ohm Resistor</li>
-  <li>x1 - (R3) 0603 150ohm Resistor</li>
-  <li>x1 - (R4) 0402 150ohm Resistor</li>
-  <li>x1 - (D1) 1206 Green LED</li>
-  <li>x1 - (D2) 0805 Green LED</li>
-  <li>x1 - (D3) 0603 Green LED</li>
-  <li>x1 - (D4) 0402 Green LED</li>
+  <li>x2 - (R1) 1206 150ohm Resistor</li>
+  <li>x2 - (R2) 0805 150ohm Resistor</li>
+  <li>x2 - (R3) 0603 150ohm Resistor</li>
+  <li>x2 - (R4) 0402 150ohm Resistor</li>
+  <li>x2 - (D1) 1206 Green LED</li>
+  <li>x2 - (D2) 0805 Green LED</li>
+  <li>x2 - (D3) 0603 Green LED</li>
+  <li>x2 - (D4) 0402 Green LED</li>
 </ol>
 
 <div>
@@ -89,7 +90,13 @@ Although SMT packages are available in both larger and smaller sizes, for this c
 
 <b>Important Details:</b><br>
 
-Each resistor in the kit is labeled with an R followed by its package size, and each LED is labeled with a D followed by its package size. Start with the largest components and work your way down. While resistors are non-polar and can be installed in either orientation, LEDs are polarized. Each LED has a small green mark indicating the cathode, which should align with the silkscreen line on the PCB footprint.<br>
+Each resistor in the kit is labeled with an R followed by its package size, and each LED is labeled with a D followed by its package size. Start with the largest components and work your way down. While resistors are non-polar and can be installed in either orientation, LEDs are polarized. Each LED differs in the orientation annotation. Follow the bellow to ensure you are soldering them correctly. <br>
+<ul>
+  <li>1206: Green Edge, align with silkscreen line</li>
+  <li>0805: Green Edge, align with silkscreen line</li>
+  <li>0603: Small Silver dot, align with silkscreen line</li>
+  <li>0402: Dark line, align opposite to silkscreen line</li>
+</ul>
 
 Start with 1206 and work your way down. Good luck!
 
