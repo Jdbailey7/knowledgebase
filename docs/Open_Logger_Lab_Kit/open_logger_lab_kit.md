@@ -51,16 +51,20 @@ For a quick refresher on the basics of through-hole soldering, see our [Introduc
   <h4>CR2032 Battery Holder</h4>
   To begin this project, locate the CR2032 Battery Clip. Place the component in the correct position so that the square-notched end aligns with the matching shape on the PCB silkscreen. While holding the component in place, flip the board over and solder each pin in place.
   <img src="../cr2032_ibom.png">
-  <!-- Add example photos -->
+    <img src="../cr2032_a.jpg" width="49%">
+    <img src="../cr2032_b.jpg" width="49%">
   </li> 
   
   <li>
   <h4>Green Power LED</h4>
   Locate the green LED. This component is polarized like the CR2032 battery, so orientation is important. Notice that one wire lead is shorter than the other. This shorter lead is called the cathode and is also identified by a small flat edge on the side of the LED.  
-  Place the LED in the Power LED position so that the short lead and flat edge align with the flat edge and square pad of the silkscreen circle. Once positioned, flip the board over and solder the two connections.<br>
+  Place the LED in the Power LED position so that the short lead and flat edge align with the flat edge and square pad of the silkscreen circle. Once positioned, flip the board over and solder the two connections. Onces the solder connections are solid and clean, use flush cutters to snip the excess lead just above the solder joint.<br>
   NOTE: It can be helpful to bend the leads in opposite directions to hold the LED in place before soldering.
   <img src="../green_led_ibom.png">
-  <!-- Add example photos -->
+    <img src="../led_a.jpg" width="49%">
+    <img src="../led_b.jpg" width="49%">
+    <img src="../led_c.jpg" width="49%">
+    <img src="../led_d.jpg" width="49%">
   </li>
 
   <li>
@@ -68,7 +72,8 @@ For a quick refresher on the basics of through-hole soldering, see our [Introduc
   The next component is a DC-DC converter that steps the incoming 12V supply down to a regulated 5V to power most of the components on the logger. Place the converter into the PCB and solder its three connections.<br>
   Ensure that the outline of the component aligns with the silkscreen rectangle to avoid installing it backwards.
   <img src="../dcdc_converter_ibom.png">
-  <!-- Add example photos -->
+    <img src="../dcdc_a.jpg" width="49%">
+    <img src="../dcdc_b.jpg" width="49%">
   </li>
 
   <li>
@@ -76,7 +81,8 @@ For a quick refresher on the basics of through-hole soldering, see our [Introduc
   In the even that the circuit is connected incorrect to a high current power source, this diode prevents current flow that could damage the PCB Assembly. Diodes are polarized components, so orientation is important. The cathode is identified by a thin ring around one end of the diode's body.  
   Bend the leads into a U-shape and place the diode into the RP Diode position. Ensure that the ring on the diode aligns with the matching line marked on the PCB footprint.
   <img src="../rp_diode_ibom.png">
-  <!-- Add example photos -->
+    <img src="../diode_a.jpg" width="49%">
+    <img src="../diode_b.jpg" width="49%">
   </li>
 
   <li>
@@ -84,7 +90,8 @@ For a quick refresher on the basics of through-hole soldering, see our [Introduc
   The thermistor is a temperature-sensitive resistor. Like a standard resistor, it is non-polar and can be installed in either orientation.<br>
   Place it into the PCB as you did with the diode, then solder it into place.
   <img src="../thermistor_ibom.png">
-  <!-- Add example photos -->
+    <img src="../therm_a.jpg" width="49%">
+    <img src="../therm_b.jpg" width="49%">
   </li>
 
   <li>
@@ -93,7 +100,10 @@ For a quick refresher on the basics of through-hole soldering, see our [Introduc
   To ensure proper alignment and help protect your hands from heat conducted through the metal clips, first slide each clip onto the legs of a 1A automotive fuse. This is a non-polar component, so orientation does not matter.<br>
   Insert the assembled clips into the four PCB holes as a unit, hold them in place, then flip the board over and solder them as straight as possible.
   <img src="../autofuse_clip_ibom.png">
-  <!-- Add example photos -->
+    <img src="../fuse_a.jpg" width="49%">
+    <img src="../fuse_b.jpg" width="49%">
+    <img src="../fuse_c.jpg" width="49%">
+    <img src="../fuse_d.jpg" width="49%">
   </li>
 
   <li>
@@ -101,7 +111,8 @@ For a quick refresher on the basics of through-hole soldering, see our [Introduc
   Let’s add the 2-position terminal blocks. Ensure the wire entry openings on each block face outward from the PCB edge.<br>
   Hold each terminal block in place and solder them one at a time.
   <img src="../terminals_ibom.png">
-  <!-- Add example photos -->
+    <img src="../term_a.jpg" width="49%">
+    <img src="../term_b.jpg" width="49%">
   </li>
 
   <li>
@@ -110,7 +121,8 @@ For a quick refresher on the basics of through-hole soldering, see our [Introduc
   On the top of the chip, look for a small dot near one of the corners. This dot marks Pin 1. Align this mark with the small semicircle shown on the PCB silkscreen, then place the chip into position.<br>
   While holding the chip in place, carefully flip the PCB over and solder all eight pins.
   <img src="../rtc_ibom.png">
-  <!-- Add example photos -->
+    <img src="../rtc_a.jpg" width="49%">
+    <img src="../rtc_b.jpg" width="49%">
   </li>
 
   <li>
@@ -119,7 +131,9 @@ For a quick refresher on the basics of through-hole soldering, see our [Introduc
   As with the fuse assembly, slide each 19-pin header onto the corresponding row of pins on the Dev Kit. Once both headers are attached, place the entire assembly into the PCB, ensuring the USB port aligns with the edge of the board.<br>
   Hold it in place, flip the board over, and solder all 38 pins.
   <img src="../esp32_ibom.png">
-  <!-- Add example photos -->
+    <img src="../esp_a.jpg" width="32%">
+    <img src="../esp_b.jpg" width="32%">
+    <img src="../esp_c.jpg" width="32%">
   </li>
 </ol>
 
